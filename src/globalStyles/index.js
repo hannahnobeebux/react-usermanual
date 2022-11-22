@@ -19,6 +19,7 @@ export const InputtedName = styled.h3`
     text-align: center;
     color: blue;
     font-style: italic;
+    
 `
 
 export const NavBar = styled.nav`

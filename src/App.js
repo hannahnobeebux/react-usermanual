@@ -16,7 +16,7 @@ import Images from './components/Images.js'
 // EACH OBJECT HAS A KEY VALUE PAIR 
 const pageInfo = [
   {title: "My Style", value: ["I’m curious and like to ask questions.", "I enjoy learning new things and understanding concepts to the best of my ability.", "Group tasks can be a great way to meet new people and get inspiration for the task at hand.", "I’m passionate and determined so getting things done whilst also having fun is the way to go!"]},
-  {title: "What I don't have patience for", value: ["Email", "Teams", "Phone calls", "I definetely prefer meeting in person!"] },
+  {title: "How to contact me", value: ["Email", "Teams", "Phone calls", "I definetely prefer meeting in person!"] },
   {title: "How to help me", value: ["It may take me some time to fully understand a concept once explained so I may ask a lot of questions!"]},
   {title: "What people misunderstand about me", value: ["I can be quite talkative, but I am still focused on the task at hand."]},
   {title: "My Personality Type", value: ["ENFJ-T [Protagonist]"]},
