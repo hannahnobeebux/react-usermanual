@@ -1,5 +1,13 @@
+
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  /* 1st part --> start, last part --> end and everythin inbetween spaced evenly */
+  /* putting header to very top and footer to very bottom, causing the space */
+  justify-content:space-between;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,3 +44,61 @@
     transform: rotate(360deg);
   }
 }
+
+/* STYLINGS FOR MY USER MANUAL */
+
+/* STYLING FOR EACH COMPONENT MADE USING MAP */
+.individual {
+    background-color: #706677;
+    border-radius:15px;
+    text-align:center;
+    padding:10px;
+    color:#CCB7AE;
+    display:block;
+    margin: 10px;
+    /* max-width:max-content; */
+}
+
+/* STYLING FOR THE PAGE CONTAINER */
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: auto; */
+}
+
+
+/* STYLING NAV BAR */
+nav{
+  background-color:rgb(190, 176, 197);
+  padding: 15px;
+}
+
+nav a{
+  margin: 1vw;
+}
+
+nav a:link , nav a:visited {
+  background-color: #565264;
+  color: #CCB7AE;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:15px;
+}
+
+nav a:hover, nav a:active {
+  background-color: #706677;
+}
+
+/* STYLING HEADER */
+header{
+  /* causing the gap */
+  display: flex; 
+  justify-content: center;
+  place-self: center ;
+  place-items: center;
+
+}
+
+
