@@ -17,8 +17,14 @@ export const HeaderOne = styled.h1`
 
 export const InputtedName = styled.h3`
     text-align: center;
-    color: blue;
+    color: #565264;
     font-style: italic;
+
+`
+
+export const HeaderTwo = styled.h2 `
+    text-align: center;
+    color: #706677;
     
 `
 

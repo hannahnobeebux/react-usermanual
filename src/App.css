@@ -93,12 +93,60 @@ nav a:hover, nav a:active {
 
 /* STYLING HEADER */
 header{
-  /* causing the gap */
   display: flex; 
   justify-content: center;
   place-self: center ;
   place-items: center;
 
+}
+
+/* STYLING IMAGES THAT ARE APPENDED WITH MAP */
+.images{
+  /* display: flex; 
+  flex-wrap: wrap;
+  flex-direction: row; */
+  flex-direction: center;
+  margin-bottom: 20px;
+  
+
+  /* display: grid; 
+  grid-template-columns: 9; */
+  
+}
+
+/* STYLING MY EXTRA SECRET COMPONENT + BUTTON */
+.secret{
+  background-color: #706677;
+  border-radius:15px;
+  text-align:center;
+  padding:10px;
+  color:#CCB7AE;
+  display:block;
+  margin: 10px;
+  max-width: fit-content;
+ 
+}
+
+.secret-button{
+  padding: 10px; 
+  margin: 20px; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight: bold; 
+  background-color:rgb(167, 131, 167);
+  border-color:rgb(204, 162, 204);
+  color:white;
+}
+
+.secretSection{
+  display:flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+/* STYLING THE FOOTER */
+footer{
+  font-weight: bold; 
 }
 
 

@@ -53,9 +53,12 @@ function Images () {
     ]; 
 
     return (
-        imgArr.map((item, index) => {
-            return (<img src = {item.imgName} alt={item.altText} height={100} width={100} />)
-        })
+        <div className = "images">
+            {imgArr.map((item, index) => {
+            return (<img src = {item.imgName} alt={item.altText} height={150} width={150} />)
+        })}
+        </div>
+        
     )
 }
 
